@@ -14,7 +14,7 @@ class NotApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(brightness: Brightness.dark,
-      fontFamily:'Poppins',
+      fontFamily:'Poppins'
       
       ),
       home:const NotsView(),

@@ -39,11 +39,13 @@ class NoteIteam extends StatelessWidget {
         children: [
         ListTile(
              
-          title:Text('fluttert tips' , style: TextStyle(
+          title:const Text('fluttert tips' , style: TextStyle(
             color:Colors.black54, 
+            fontSize: 26,
           ),),
           subtitle: Text('build your carer with aya eid',style: TextStyle(
             color:Colors.black54, 
+            fontSize: 20,
           ), ),
           trailing:IconButton(onPressed: () {} ,icon: Icon(Icons.delete),),
         ),
