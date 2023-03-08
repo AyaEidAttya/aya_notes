@@ -4,6 +4,14 @@ class AddNoteBottounSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      decoration: BoxDecoration(
+      
+       BorderRadius:BorderRadius.circular(16),
+       
+       ),
+
+       child: Column(children: [Text('hello')]),
+    );
   }
 }
