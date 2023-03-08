@@ -29,13 +29,16 @@ class NoteIteam extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration:BoxDecoration(
-        color: Colors.red, 
+        color: Color.fromARGB(233, 234, 181, 95), 
         borderRadius: BorderRadius.circular(16),
       
       ),
-      child:Column (children: [
+      child:Column (
+        crossAxisAlignment:CrossAxisAlignment.end,
+        
+        children: [
         ListTile(
-
+             
           title:Text('fluttert tips' , style: TextStyle(
             color:Colors.black54, 
           ),),
@@ -45,8 +48,9 @@ class NoteIteam extends StatelessWidget {
           trailing:IconButton(onPressed: () {} ,icon: Icon(Icons.delete),),
         ),
 
-
-
+        Text('may21 /2023',style: TextStyle(
+            color:Colors.black54,),),
+      
       ]),
       
     );
