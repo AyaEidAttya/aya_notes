@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'coustem_app_bar.dart';
+import 'coustem_note_iteam.dart';
 
 class  NotesViewBody extends StatelessWidget {
   const  NotesViewBody({super.key});
@@ -22,42 +23,4 @@ class  NotesViewBody extends StatelessWidget {
     );
   }
 }
-class NoteIteam extends StatelessWidget {
-  const NoteIteam({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration:BoxDecoration(
-        color: Color(0xffFFCCB0), 
-        borderRadius: BorderRadius.circular(16),
-      
-      ),
-      child:Column (
-        crossAxisAlignment:CrossAxisAlignment.end,
-        
-        children: [
-        ListTile(
-             
-          title:const Text('fluttert tips' , style: TextStyle(
-            color:Colors.black54, 
-            fontSize: 26,
-          ),),
-          subtitle: Text('build your carer with aya eid',style: TextStyle(
-            color:Colors.black54.withOpacity(.3), 
-            fontSize: 20,
-          ), ),
-          trailing:IconButton(onPressed: () {} ,icon: Icon(Icons.delete),
-          
-          iconSize: 30,
-          ),
-        ),
-
-        Text('may21 /2023',style: TextStyle(
-            color:Colors.black54,),),
-      
-      ]),
-      
-    );
-  }
-}
