@@ -1,17 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_nota/widget/coustem%20text%20feed.dart';
 class AddNoteBottounSheet extends StatelessWidget {
   const AddNoteBottounSheet({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-      
-       BorderRadius:BorderRadius.circular(16),
-       
-       ),
+    return Column(
+children: [
+  SizedBox(
 
-       child: Column(children: [Text('hello')]),
+    height: 24,
+  ),
+CoustemTextFaild(),
+
+
+],
+
+
+
+
     );
+    
   }
 }

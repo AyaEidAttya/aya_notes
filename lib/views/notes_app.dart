@@ -18,20 +18,20 @@ class NotsView extends StatelessWidget {
         onPressed:() {
      
       showModalBottomSheet(
+        shape: RoundedRectangleBorder(
+              borderRadius:BorderRadius.circular(16),
+
+
+
+
+        ),
         context: context,
          builder:(context) {
           return Container();
          }
-      
-      
-      
       );
-
-
       },
       child:const Icon(Icons.add),
-      
-      
       
       ),
       body:const NotesViewBody(),
