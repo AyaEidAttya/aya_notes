@@ -29,7 +29,7 @@ class NoteIteam extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration:BoxDecoration(
-        color: Color.fromARGB(233, 234, 181, 95), 
+        color: Color(0xffFFCCB0), 
         borderRadius: BorderRadius.circular(16),
       
       ),
@@ -44,10 +44,13 @@ class NoteIteam extends StatelessWidget {
             fontSize: 26,
           ),),
           subtitle: Text('build your carer with aya eid',style: TextStyle(
-            color:Colors.black54, 
+            color:Colors.black54.withOpacity(.3), 
             fontSize: 20,
           ), ),
-          trailing:IconButton(onPressed: () {} ,icon: Icon(Icons.delete),),
+          trailing:IconButton(onPressed: () {} ,icon: Icon(Icons.delete),
+          
+          iconSize: 30,
+          ),
         ),
 
         Text('may21 /2023',style: TextStyle(
